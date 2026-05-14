@@ -19,7 +19,7 @@ wttr() {
 
   for p in $WTTR_PARAMS "${params[@]}"; do
     if [[ "$p" == "s" ]]; then
-      args+=("--data-urlencode" "format=3")
+      args+=("--data-urlencode" "format=4")
     else
       args+=("--data-urlencode" "$p")
     fi

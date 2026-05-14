@@ -1,4 +1,4 @@
-# wheather
+# weather
 
 Minimal CLI weather script using [wttr.in](https://wttr.in).
 
